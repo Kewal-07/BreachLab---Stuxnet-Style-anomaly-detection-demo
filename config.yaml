@@ -1,0 +1,51 @@
+# BreachLab default configuration.
+# Every value here mirrors a field on the dataclasses in breachlab/config.py.
+# A partial file is fine: anything omitted falls back to the code defaults.
+
+sim:
+  n_centrifuges: 10
+  sample_rate_hz: 1.0
+  duration_s: 3600
+  seed: 42
+  nominal_speed_rpm: 63000.0
+  unit_nominal_jitter_frac: 0.01
+  noise:
+    rotor_speed: 50.0
+    vibration: 0.05
+    motor_power: 0.10
+    casing_temp: 0.15
+    bearing_wear: 0.0
+  thermal_lag: 0.98
+  ambient_temp_c: 25.0
+  temp_gain: 6.0
+  wear_rate: 2.0e-5
+
+benign:
+  enable: true
+  maintenance_dips: 3
+  dip_depth_frac: 0.10
+  dip_duration_s: 60
+  sensor_glitch_count: 1
+  glitch_magnitude_std: 6.0
+
+attack:
+  variant: aggressive
+  start_frac: 0.50
+  duration_frac: 0.25
+  intensity: 1.0
+  replay_buffer_s: 120
+  target_units: []
+
+detector:
+  window_size: 30
+  threshold_percentile: 99.0
+  iforest_n_estimators: 200
+  iforest_contamination: 0.01
+  ae_hidden: 64
+  ae_latent: 16
+  ae_epochs: 30
+  ae_lr: 1.0e-3
+  ae_batch_size: 64
+
+output_dir: outputs
+log_level: INFO

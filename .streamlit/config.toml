@@ -1,0 +1,11 @@
+# Presentation theme for the BreachLab dashboard.
+# Light base keeps it consistent with the white-background matplotlib figures,
+# and the red primary matches the "physical / real" colour used throughout.
+
+[theme]
+base = "light"
+primaryColor = "#c0392b"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
