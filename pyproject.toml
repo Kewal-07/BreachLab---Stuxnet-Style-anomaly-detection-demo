@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "A Stuxnet-inspired ICS anomaly-detection demo: detecting an attack on physical signals the malware couldn't fake (simulated data only)."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
 keywords = ["ics", "ot-security", "anomaly-detection", "stuxnet", "cybersecurity", "machine-learning"]
 
 dependencies = [

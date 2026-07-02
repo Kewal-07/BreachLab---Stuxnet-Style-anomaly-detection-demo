@@ -1,7 +1,6 @@
-# 🛰️ BreachLab — catching a Stuxnet-style attack the sensors couldn't fake
+#  BreachLab — catching a Stuxnet-style attack the sensors couldn't fake
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Tests](https://img.shields.io/badge/tests-37%20passing-brightgreen)
 ![Status](https://img.shields.io/badge/status-educational%20demo-orange)
 
@@ -18,7 +17,7 @@ tests one idea:
 
 The answer, quantified: **yes — and by a lot.**
 
-> ⚠️ **Educational / research use only. All data is simulated. Nothing here
+>  **Educational / research use only. All data is simulated. Nothing here
 > references or targets any real system, and the physics constants are
 > illustrative, not calibrated to real hardware.**
 
@@ -233,7 +232,4 @@ This is a demonstration of an *idea*, not a deployable defence:
 
 ---
 
-## License
-
-[MIT](LICENSE) © 2026 Kewal Dharamshi. Built as a learning project — corrections
-and suggestions welcome.
+Built as a learning project by Kewal Dharamshi — corrections and suggestions welcome.

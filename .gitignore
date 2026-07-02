@@ -26,3 +26,4 @@ env/
 # The curated copies used in the README live in docs/images/ and ARE tracked.
 outputs/*
 !outputs/.gitkeep
+docs/substack_01_stuxnet.md
